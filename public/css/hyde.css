@@ -234,8 +234,12 @@ a:hover {
   margin-bottom: 0;
 }
 .banner a {
-  color: #fff;
+  font-weight: 400;
+  color: #d0d0d0;
 }
+
+
+
 
 /* Posts
 -------------------------------------------------- */
@@ -363,7 +367,7 @@ a:hover {
     left: 0;
   }
   .masthead h1 {
-    font-size: 64px;
+    font-size: 48px;
   }
   .colophon {
     margin-top: 40px;
@@ -384,8 +388,9 @@ a:hover {
     left: 0;
   }
   .banner h1 {
-    font-size: 48px;
+    font-size: 32px;
   }
+
 
   /* Remove mobile device padding from list of posts */
   .posts {
