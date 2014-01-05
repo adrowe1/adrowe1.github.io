@@ -1,0 +1,11 @@
+name: A.D.Rowe's Research Blog 
+tagline: Accessible science 
+author :
+  name : Alexander D. Rowe
+  email : alexander.rowe@rr-research.no
+  github : adrowe1
+  twitter : A_D_Rowe
+
+markdown: redcarpet
+pygments: true
+permalink: /blog/:month-:day-:year/:title.html

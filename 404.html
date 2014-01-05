@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>A.D.Rowe's research page</title>
+        <meta name="viewport" content="width=device-width">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        
+        <!-- syntax highlighting CSS 
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        Custom CSS 
+        <link rel="stylesheet" href="/css/main.css">
+        
+        <!-- Custom styles for carousel -->
+        <link href="/css/carousel.css" rel="stylesheet">
+        
+        <!-- <base href="http://localhost/dist/content/"> -->
+
+    </head>
+    <body>
+
+        <!-- NAVBAR
+================================================== -->
+      <div class="navbar-wrapper">
+        <div class="container">
+
+          <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">A.D.Rowe research</a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="blog">Blog</a></li>
+                  <li><a href="https://github.com/adrowe1" target="_blank">Github</a></li>
+                  <li class="dropdown">
+                    <a href="projects.html" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="projects.html">Overview</a></li>
+                      <li class="dropdown-header">Experimental</li>
+                      <li><a href="projects/tweezer.html">Laser Tweezer</a></li>
+                      <li><a href="projects/microfluidics.html">Microfluidics</a></li>
+                      <li><a href="projects/superres.html">Super-resolution microscopy</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Biological data</li>
+                      <li><a href="projects/behavioural.html">Behavioural analysis</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Clinical data</li>
+                      <li><a href="projects/clir.html">CLIR</a></li>
+                    </ul>
+                  </li>
+               
+                  <li class="dropdown">
+                    <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">Blog2 <b class="caret"></b></a>
+                    
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Blog keywords</li>
+                    
+                      <li>
+                        <a href="single molecule">
+                          single molecule
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="DNA">
+                          DNA
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="laser tweezer">
+                          laser tweezer
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="quadruplex">
+                          quadruplex
+                        </a>
+                      </li>
+                    
+                    </ul>
+                    
+                  </li>
+             
+
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>  
+
+        
+
+          <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/assets/carousel-bkg2.png" alt="First slide"> 
+          <!--  <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Alexander D. Rowe" alt="First slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+                <img src="/assets/Alex.jpg" alt="test this", width="100px">
+              <h1>Researcher at Oslo University Hospital.</h1>
+              <p>Single molecule biophysics, imaging<a href="http://en.wikipedia.org/wiki/Serial_comma" target="_blank">,</a> and clinical data analysis.</p>
+              <p><a class="btn btn-lg btn-primary" href="about.html" role="button">About</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/assets/carousel-bkg2.png" alt="First slide">
+          <!-- <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Research blog</h1>
+              <p>A collection of short articles sharing useful information and results from my projects.</p>
+              <p><a class="btn btn-lg btn-primary" href="/blog" role="button">Read more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/assets/carousel-bkg2.png" alt="First slide">
+          <!-- <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>GitHub projects</h1>
+              <p>Repositories containing project data and code.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://github.com/adrowe1" target="_blank" role="button">adrowe1 on GitHub</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+    <div class="content container">
+      <div class="fourohfour">
+        <h1>404: Page not found</h1>
+        <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Visit the home page</a> to see if you can find it manually. Thanks!</p>
+        <hr>
+        <h3>Heads up!</h3>
+        <p>This is a basic 404 page for use with GitHub Pages. Its source code is not generated by Jekyll.</p>
+      <div>
+    </div>
+
+
+        <!-- FOOTER -->
+      <div id="footer">
+            <div class="container">
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p class="text-muted">&copy; 2014 Alexander D. Rowe, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </div>
+          </div>
+
+    </div>
+    
+    <!-- /.container -->  
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/holder.js"></script>        
+
+    </body>
+</html>
+
+
+
+
