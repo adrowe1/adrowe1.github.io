@@ -6,14 +6,19 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
         
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <!-- Bootstrap CSS 
+        <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
         
+        <!-- Custom styles for modal 
+        <link href="/css/modal.css" rel="stylesheet"> -->
         <!-- syntax highlighting CSS 
         <link rel="stylesheet" href="/css/syntax.css">
 
         Custom CSS 
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/main.css"> -->
+          <!-- Custom styles for carousel -->
+          <link href="/css/carousel.css" rel="stylesheet">
         
         <!-- <base href="http://localhost/dist/content/"> -->
         
@@ -26,7 +31,7 @@
 
             <div class="container">
            
-              <!-- Main component for a primary marketing message or call to action -->
+              <!-- Main component for a primary message -->
               <div class="jumbotron">
                 <h2>{{ page.title }}</h2>
                 <p>{{ page.heading1 }}</p>
@@ -47,6 +52,39 @@
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/holder.js"></script>        
+		
+		<!-- Nice lightbox tricks! Borrowed wholesale from http://ashleydw.github.io/lightbox/#wrappers> I can't see any usage requirements, so am assuming this is the best way to keep the code up to date -->
+		
+	<!--	<script src="//code.jquery.com/jquery.js"></script>
+				 yea, yea, not a cdn, i know -->
+				<script src="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function ($) {
+
+						// delegate calls to data-toggle="lightbox"
+						$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+							event.preventDefault();
+							return $(this).ekkoLightbox({
+								onShown: function() {
+									if (window.console) {
+										return console.log('Checking our the events huh?');
+									}
+								}
+							});
+						});
+
+						//Programatically call
+						$('#open-image').click(function (e) {
+							e.preventDefault();
+							$(this).ekkoLightbox();
+						});
+						$('#open-youtube').click(function (e) {
+							e.preventDefault();
+							$(this).ekkoLightbox();
+						});
+					});
+				</script>
+	<!--			<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
 
     </body>
 </html>
