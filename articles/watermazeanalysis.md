@@ -12,8 +12,8 @@ heading2: Working draft of manuscript
 	<div class="col-md-12">
     <p> Learning and memory in mice are commonly tested using the Morris water maze. Mice are released from the edge of the pool and allowed to swim for 60&nbsp;s in search of a submerged platform. Since mice do not like water, they are assumed to prefer being on the platform. This process is repeated 32 times in the space of four days, with the start point pseudo-randomly alternating between four points around the edge of the pool. As the trials progress, it is assumed that the mice learn the position of the platform, and therefore choose a more direct swimming route. Thus the rate of improvement in the time required to find the platform (platform latency to first entry) is taken as a measure of learning ability. </p> 
     <p> In this study I have taken the raw positional data from 120&nbsp;mice (C57BL/6 background) with seven different genotypes and examined the paths swum by each mouse for signs of learning. The raw data shows behaviour which is a great deal more complex than standard analysis suggests. <b> It is in fact extremely rare for a mouse to swim directly to the platform even after it has successfully performed many trials. </b> A detailed discussion of what can be determined by these methods is presented below, but there are two novel conclusions which can be drawn. </p>
-    <p> First, the swimming behaviour shows strong traits of anxiety, and a genotype-dependent adaptation to this anxiety over time. Quantifying anxiety in the watermaze correlates well with anxiety measured in the open field test and is negatively correlated with the platform latency to first entry. Thus the time required to find the platform measures an interaction between anxiety and learning. Without controlling for anxiety in the Morris water maze it is very likely that what is being measured is actually the genotype's rate of adaptation to anxiety, rather than meaningful learning. </p>
-    <p> Second, and more interestingly, I observe an extremely striking tendency in the memory retention testing data taken on days 5 and 12. These two trials start from a previously unused point and the latency to platform is measured. Again the anxiety problem exists, so increased latencies a week later may only be measuring a higher rate of anxiety de-acclimatization, rather than forgetfulness. Irrespective of this, however, there is an incredible similarity between the two paths swum by any one mouse, with a seven day interval between trials. While most ecology studies of animal navigation show relatively simple and qualitatively similar paths through complex landscapes, a mouse swimming in a circular pool follows a relatively complex path in the simplest possible landscape. Rather than triangulating on the visual cues and using them to navigate to the platform, it appears that the mice have a strong tendency to closely follow the path they swam a week earlier, even if it is extremely inefficient for reaching the platform. While this would be easy to perform in a complex landscape with physical barriers and many visual cues, swimming a repeat of a complex path one week later seems like a much harder navigational task (in human terms) than any other approach. This suggests that a mouse's spatial memory differs from human spatial memory and may be more dynamically visual, allowing the mouse to retrace its tracks in space as though it were constantly able to compare its position with a video record of its previous path. We can also speculate as to whether this behaviour is a stress-related strategy, whereby a known path to safety (they are conditioned to expect rescue after a maximum of 60&nbsp;s) is chosen automatically in a panic, in preference to any rational attempt to navigate. </p>
+    <p> First, the swimming behaviour shows strong traits of anxiety, and a genotype-dependent adaptation to this anxiety over time. Quantifying anxiety in the watermaze correlates well with anxiety measured in the open field test and is negatively correlated with the platform latency to first entry. Thus the time required to find the platform measures an interaction between anxiety and learning. Without controlling for anxiety in the Morris water maze <b> it is very likely that what is being measured is actually the genotype's rate of adaptation to anxiety, rather than meaningful learning.</b> </p>
+    <p> Second, and more interestingly, I observe an extremely striking tendency in the memory retention testing data taken on days 5 and 12. These two trials start from a previously unused point and the latency to platform is measured. Again the anxiety problem exists, so increased latencies a week later may only be measuring a higher rate of anxiety de-acclimatization, rather than forgetfulness. Irrespective of this, however, there is an incredible similarity between the two paths swum by any one mouse, with a seven day interval between trials. While most ecology studies of animal navigation show relatively simple and qualitatively similar paths through complex landscapes, a mouse swimming in a circular pool follows a relatively complex path in the simplest possible landscape. Rather than triangulating on the visual cues and using them to navigate to the platform, it appears that the <b>mice have a strong tendency to closely follow the path they swam a week earlier, even if it is extremely inefficient for reaching the platform.</b> While this would be easy to perform in a complex landscape with physical barriers and many visual cues, swimming a repeat of a complex path one week later seems like a much harder navigational task (in human terms) than any other approach. This suggests that a mouse's spatial memory differs from human spatial memory and may be more dynamically visual, allowing the mouse to retrace its tracks in space as though it were constantly able to compare its position with a video record of its previous path. We can also speculate as to whether this behaviour is a stress-related strategy, whereby a known path to safety (they are conditioned to expect rescue after a maximum of 60&nbsp;s) is chosen automatically in a panic, in preference to any rational attempt to navigate. </p>
 
   </div> 
 </div>
@@ -132,6 +132,22 @@ heading2: Working draft of manuscript
 	<div class="col-md-12">
 
     <p>Data is most commonly presented as shown in Figure 1A, taking the average latency to platform and using the standard error of the mean as an error bar. This gives apparently clear data, which are then tested for significantly different learning capacity using standard parametric, or occasionally non-parametric methods. (<span class="showtooltip" title="Vorhees C and Williams M (2006). 'Morris Water Maze: Procedures For Assessing Spatial And Related Forms of Learning And Memory.' Nature Protocols, 1, pp. 848-858. ISSN 1754-2189."><a href="http://dx.doi.org/10.1038/nprot.2006.116">Vorhees &amp; Williams, 2006</a></span>) Unfortunately this oversimplifies the data in many ways (not least by incorrectly handling the 60&nbsp;s timepoints where a mouse fails to find the platform) which damage the credibility of the subsequent analysis.</p>
+    
+    <div class="col-xs-7 col-md-7 pull-right">
+      <div class="row">
+        <a href="/articles/watermaze/tracks.one.mouse.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 2A: Swimming paths for one mouse during 32 training trials" data-footer="The paths swum by mice in the water maze on four consecutive days during training are shown. They are grouped by starting position and by day, with the paths coloured according to the order they were performed in each day. The position of the platform is shown by a grey circle at (0,100)." class="col-sm-4">
+        <img src="/articles/watermaze/tracks.one.mouse.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/time.one.mouse.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 2B: Swimming paths for one mouse during 32 training trials" data-footer="The paths swum by mice in the water maze on four consecutive days during training are shown. They are grouped by starting position and by day, with the points on the paths coloured according to the swimming time. The position of the platform is shown by a grey circle at (0,100)." class="col-sm-4">
+        <img src="/articles/watermaze/time.one.mouse.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/speed.one.mouse.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 2C: Swimming paths for one mouse during 32 training trials" data-footer="The paths swum by mice in the water maze on four consecutive days during training are shown. They are grouped by starting position and by day, with the paths coloured according to the instantaneous speed at which the mouse is swimming. The position of the platform is shown by a grey circle at (0,100)." class="col-sm-4">
+        <img src="/articles/watermaze/speed.one.mouse.png" class="img-responsive">
+        </a>
+      </div>
+      
+	   <p> <i> Figure 2: Swimming paths during the 32 training trials for a single mouse show the wide range of swimming patterns and swimming speeds which are observed. </i> </p>
+    </div>
 
     <p>A look at the raw data in figure 1B tells a different story. The tendency towards shorter latencies over time are still evident here, as seen by the decrease in medians with time, but the homoscedasticity and linear learning progression which are necessary for valid parametric tests, can clearly not be assumed.  </p>
 
@@ -140,25 +156,6 @@ heading2: Working draft of manuscript
     <p>The aim here is to investigate the validity of latency as a measure of learning, to determine the heterogeneity of behaviour and learning within a genotype group and to see whether confounding factors can be identified in the spatial data and used to improve the reliability of learning measures.</p>
 
     <hr>
-
-
-
-    <div class="col-xs-7 col-md-7 pull-right">
-      <div class="row">
-        <a href="/articles/watermaze/tracks.one.mouse.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 2A: Swimming paths for one mouse during 32 training trials" data-footer="The paths swum by mice in the water maze on four consecutive days during training are shown. They are grouped by starting position and by day, with the paths coloured according to the order they were performed in each day. The position of the platform is shown by a grey circle at (0,100)." class="col-sm-6">
-        <img src="/articles/watermaze/tracks.one.mouse.png" class="img-responsive">
-        </a>
-        <a href="/articles/watermaze/time.one.mouse.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 2B: Swimming paths for one mouse during 32 training trials" data-footer="The paths swum by mice in the water maze on four consecutive days during training are shown. They are grouped by starting position and by day, with the points on the paths coloured according to the swimming time. The position of the platform is shown by a grey circle at (0,100)." class="col-sm-6">
-        <img src="/articles/watermaze/time.one.mouse.png" class="img-responsive">
-        </a>
-      </div>
-      <div class="row">
-        <a href="/articles/watermaze/speed.one.mouse.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 2C: Swimming paths for one mouse during 32 training trials" data-footer="The paths swum by mice in the water maze on four consecutive days during training are shown. They are grouped by starting position and by day, with the paths coloured according to the instantaneous speed at which the mouse is swimming. The position of the platform is shown by a grey circle at (0,100)." class="col-sm-6">
-        <img src="/articles/watermaze/speed.one.mouse.png" class="img-responsive">
-        </a>
-      </div>
-	   <p> <i> Figure 2: Swimming paths during the 32 training trials for a single mouse show the wide range of swimming patterns and swimming speeds which are observed. </i> </p>
-    </div>
 
     <p>An example of the spatial data available for each mouse is shown in figure 2A. Paths are grouped by day and starting position, and coloured according to the sequence of 8 trials each day (block 1 trials 1 to 4 then block 2 trials 1 to 4).</p>
 
@@ -177,37 +174,111 @@ heading2: Working draft of manuscript
 <div class="row">
 	<div class="col-md-12">
 
-    <div class="col-xs-7 col-md-7 pull-right">
+    <div class="col-xs-9 col-md-9 pull-right">
       <div class="row">
-        <a href="/articles/watermaze/speed.all.by.genotype.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3A: Local swimming speeds for each genotype per day" data-footer="The swimming paths for all mice of each genotype on each day are coloured according to swimming speed, giving insights into genotype-specific traits. We see, for example, that genotypes B and F mice in particular tend to avoid the open area of the pool where there is no platform, and genotype D shows a higher number of mice which swim slowly near the edge of the pool." class="col-sm-6">
+        <a href="/articles/watermaze/speed.all.by.genotype.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3A: Local swimming speeds for each genotype per day" data-footer="The swimming paths for all mice of each genotype on each day are coloured according to swimming speed, giving insights into genotype-specific traits. We see, for example, that genotypes B and F mice in particular tend to avoid the open area of the pool where there is no platform, and genotype D shows a higher number of mice which swim slowly near the edge of the pool." class="col-sm-4">
         <img src="/articles/watermaze/speed.all.by.genotype.png" class="img-responsive">
         </a>
-        <a href="/articles/watermaze/speed.all.by.startpoint.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3B: Local swimming speeds for each genotype according to starting position" data-footer="The swimming paths for all mice of each genotype are coloured according to swimming speed and grouped by starting position. This clearly shows that the mice have a strong tendency to explore the majority of the pool, even when starting from the NE and NW positions which are considerably closer to the platform, although genotype F shows some preference for the area around the platform when starting from a northerly position." class="col-sm-6">
+        <a href="/articles/watermaze/speed.all.by.startpoint.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3B: Local swimming speeds for each genotype according to starting position" data-footer="The swimming paths for all mice of each genotype are coloured according to swimming speed and grouped by starting position. This clearly shows that the mice have a strong tendency to explore the majority of the pool, even when starting from the NE and NW positions which are considerably closer to the platform, although genotype F shows some preference for the area around the platform when starting from a northerly position." class="col-sm-4">
         <img src="/articles/watermaze/speed.all.by.startpoint.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/position.all.by.day.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3C: Positions occupied in the water maze " data-footer="The positions occupied by mice during the day illustrate regions that the mice prefer. The points with a stronger blue colour are occupied for more of the time than paler points, thus the bright blue rim around the edge of the pool for many of the genotypes on day 1 indicates a strong wall-hugging preference for the edge of the pool, rather than carefree exploration. This is very similar behaviour to that which is measured in an open field test and indicates that anxiety contributes significantly to the regions explored. The reduction in wall-hugging over the four days, and the different intensities for each genotype reveal varying anxiety responses and acclimatization rates." class="col-sm-4">
+        <img src="/articles/watermaze/position.all.by.day.png" class="img-responsive">
         </a>
       </div>
       <div class="row">
-        <a href="/articles/watermaze/position.all.by.day.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3C: Positions occupied in the water maze " data-footer="The positions occupied by mice during the day illustrate regions that the mice prefer. The points with a stronger blue colour are occupied for more of the time than paler points, thus the bright blue rim around the edge of the pool for many of the genotypes on day 1 indicates a strong wall-hugging preference for the edge of the pool, rather than carefree exploration. This is very similar behaviour to that which is measured in an open field test and indicates that anxiety contributes significantly to the regions explored. The reduction in wall-hugging over the four days, and the different intensities for each genotype reveal varying anxiety responses and acclimatization rates." class="col-sm-6">
-        <img src="/articles/watermaze/position.all.by.day.png" class="img-responsive">
+        <a href="/articles/watermaze/position.each.mouse.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3D: Compiled swimming paths from 32 trials for individual mice" data-footer="The swimming paths followed on all 32 training sessions for each mouse (coloured by genotype) are overlaid and the tendency to occupy a position is reflected in the opacity of points. Thus unguided exploration would yield points of similar opacity for the whole pool, while consistent behaviour would form darker regions where the mouse swims most often. The implication here is that the only really consistent behavioural trait is the tendency in some mice to swim in circles around the edge of the pool, a behaviour which is associated with anxiety." class="col-sm-6">
+        <img src="/articles/watermaze/position.each.mouse.png" class="img-responsive">
         </a>
-        <a href="/articles/watermaze/low.speed.locations.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3D: Clustered swimming paths for each genotype on each day, showing locations of slow swimming" data-footer="The swimming paths for all mice of each genotype are coloured according to a classification of either fast(pale red) or slow (blue) swimming speed and grouped by day. There is a large difference between genotypes in the preponderance of slow-swimming episodes although slow swimming seems relatively universally to be associated with turning and located predominantly around the edges of the pool." class="col-sm-6">
+        <a href="/articles/watermaze/low.speed.locations.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 3E: Clustered swimming paths for each genotype on each day, showing locations of slow swimming" data-footer="The swimming paths for all mice of each genotype are coloured according to a classification of either fast(pale red) or slow (blue) swimming speed and grouped by day. There is a large difference between genotypes in the preponderance of slow-swimming episodes although slow swimming seems relatively universally to be associated with turning and located predominantly around the edges of the pool. NB long blue lines crossing the pool should be ignored. They are caused by erroneous centroid identification in the raw data." class="col-sm-6">
         <img src="/articles/watermaze/low.speed.locations.png" class="img-responsive">
         </a>
       </div>
-	   <p> <i> Figure 3: General tendencies in swimming can be seen by aggregating all of the data from each genotype into specific groups and plotting . </i> </p>
+	   <p> <i> Figure 3: General tendencies while swimming can be seen by aggregating all of the data from each genotype into specific groups for visualization. </i> </p>
     </div>
 
-
     <p>The aim here is to investigate the validity of latency as a measure of learning, to determine the heterogeneity of behaviour and learning within a genotype group and to see whether confounding factors can be identified in the spatial data and used to improve the reliability of learning measures.</p>  
-	   
+	  
+    <p>The compiled data we see in figures 3A&B are very revealing. In spite of what we might expect, there is very little to suggest that the mice establish any sort of "beaten track" towards the target, instead they tend to explore the majority of the pool over time. This is most clearly seen in figure 3D, where the only repetitve traces are those where the mice swim in circles around the edge of the pool. This behaviour is associated strongly with anxiety and therefore biases the measurement of learning.</p>
+    
+    <p>The same anxiety-like behaviour is also shown in figure 3C, but this time decomposed by genotype and day. This gives a clearer view of the time-dependence of anxiety-like behavour. On day 1 many genotypes show a dark ring around the wall of the pool, while this tends to disappear towards day 4. This implies that the mice become more accustomed to the water maze task over time. We therefore need to examine how much of a role anxiety plays over the 32 trials. </p>
+    
+    <p>We also see in figure 3E that there is a genotype-dependent tendency to swim slowly in different regions of the pool, though most of the slow-swimming episodes appear to be associated with turning in the vicinity of the pool wall.</p>
       
+      
+	</div>	
+</div>
+
+
+
+----------------
+
+####Swimming speeds near the edge of the pool 
+<div class="row">
+	<div class="col-md-12">
+
+    <div class="col-xs-7 col-md-7 pull-right">
+      <div class="row">
+        <a href="/articles/watermaze/radial.strata.plot.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 4A: Classifying positions in the pool as five radial strata of equal area" data-footer="Positions in the pool are divided into 5 radial strata of equal area. This allows us to examine the dependence of instantaneous swimming speeds on position in the pool." class="col-sm-4">
+        <img src="/articles/watermaze/radial.strata.plot.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/speed.radial.strata.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 4B: Density plots of swimming speeds within radial strata are shown for each genotype on each day." data-footer="Density plots of swimming speeds within radial strata are shown for each genotype on each day. These data are further decomposed according to whether or not the mice found the platform. There are no great differences in straight-line swimming speeds, but there is a higher incidence of slow swimming (turning) in all pool regions for mice that do not find the platform. I am not clear whether this is an indication of disorientation, anxiety, boredom, or otherwise, but any explanation must take account of the observation that these slow episodes occur more frequently towards the end of the series of 32 training sessions when the mice tend to be least anxious." class="col-sm-6">
+        <img src="/articles/watermaze/speed.radial.strata.png" class="img-responsive">
+        </a>
+      </div>
+	   <p> <i> Figure 4: Position in the water maze is divided into radial strata and the swimming speed within these strata is investigated for all genotypes on each day, according to whether or not the mice successfully found the platform. </i> </p>
+    </div>
+
+    <p>In order to better appreciate the anxiety-like tendency to hug the wall of the water maze, we can divide the pool into radial strata (figure 4A) and investigate swimming behaviour in each strip. This allows us to separate wall-hugging from swimming in the open area of the pool. Plotting density histograms of the swimming speeds in each of these regions for each genotype and day (figure 4B) shows no great differences in straight-line swimming speeds, but there is a higher incidence of slow swimming (turning) in all pool regions for mice that do not find the platform. I am not clear whether this is an indication of disorientation, anxiety, boredom, or otherwise, but any explanation must take account of the observation that these slow episodes occur more frequently towards the end of the series of 32 training sessions when the mice tend to be least anxious.</p>  
+	  
+    <p>Given the inconclusive nature of these results it would be interesting to know what we can usefully take from these data. If we accept the possibility that anxiety-dependent wall-hugging interferes with learning by overriding the urge to find the platform, the latency to platform time becomes a questionable measure of performance. It would be impossible to determine a difference in learning ability between a mouse that swims randomly until it eventually finds the platform after 50&nbsp;s and a mouse that knows where the platform is but swims anxiously around the pool wall for 45&nbsp;s before making a 5&nbsp;s direct dash to the target. </p>
+    
+    <p>What we can investigate is the proportion of swimming time that each mouse spends close to the pool wall, and examine this for developments during training. We make the assumption, based on the variability seen in figure 2 and the general coverage of the water maze shown in figure 3, that the intervals between training sessions are relatively insignificant and that we can use the trial number as a measure of experience in the maze.</p>
+      
+	</div>	
+</div>
+
+
+
+
+
+----------------
+
+####Anxiety and adaptation to the water maze 
+<div class="row">
+	<div class="col-md-12">
+
+    <div class="col-xs-7 col-md-7 pull-right">
+      <div class="row">
+        <a href="/articles/watermaze/time.by.region.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 5A: Count of data points per trial spent by wall of pool vs count spent in open area of pool" data-footer="There are approximately 480 data points recorded in 60&nbsp;s of positional data. Classifying each point as wall-hugging (outer two strata in figure 4A) or open area we can plot the count of points by the wall against the count in the open area. Colouring by trial number clearly shows that early trials tend to occupy a diagonal line (meaning that the platform is not found) while later trials spend less time by the wall. This is of course somewhat genotype-dependent and implies a varying increase in confidence with experience in the maze." class="col-sm-6">
+        <img src="/articles/watermaze/time.by.region.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/open.area.time.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 5B: Proportion of time spent in the open area of the water maze as a function of trial number" data-footer="The data from figure 5A is shown as a proportion of the total swimming time spent in the open area. We will call this proportion confidence. A Michaelis-Menten curve (or a linear model in the few cases where the data is extremely noisy) showing confidence as a function of trial number is fitted for each genotype to the mice that find the platform and to thoise that do not. Further insight into the relative randomness of the open area exploration is shown by grouping trials according to the distance from the start to the platform - short starting at NW or NE and long starting at SW or SE - and seeing little to distinguish between them. It is abundantly clear that all mice that do not find the platform have a lower level of confidence than those that do, for all genotypes implying that confidence is fundamental to how fast these mice find the platform." class="col-sm-6">
+        <img src="/articles/watermaze/open.area.time.png" class="img-responsive">
+        </a>
+      </div>
+	   <p> <i> Figure 5: The proportion of swimming time spent in the open area of the maze as opposed to wall-hugging (a measure of anxiety), is dependent upon experience and genotype. Mice which do not find the platform can be clearly seen to spend more time wall hugging, implying that anxiety is key to whether or not mice find the platform.</i> </p>
+    </div>
+
+    <p>A </p>
       
 	</div>	
 </div>
 
 ----------------
 
-####Discussion and conclusions
+####Conclusions
+
+<div class="row">
+  <div class="col-md-12">
+      <p>Results from the Morris water maze should be interpreted with caution, since anxiety may override learning in a way that cannot easily be controlled for. </p>
+      
+      
+  </div> 
+</div>
+    
+
+
 
 ----------------
 
