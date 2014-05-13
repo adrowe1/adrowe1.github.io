@@ -12,15 +12,15 @@ heading2: Working draft of manuscript
 	<div class="col-md-12">
     <p> Learning and memory in mice are commonly tested using the Morris water maze. Mice are released from the edge of the pool and allowed to swim for 60&nbsp;s in search of a submerged platform. Since mice do not like water, they are assumed to prefer being on the platform. This process is repeated 32 times in the space of four days, with the start point pseudo-randomly alternating between four points around the edge of the pool. As the trials progress, it is assumed that the mice learn the position of the platform, and therefore choose a more direct swimming route. Thus the rate of improvement in the time required to find the platform (platform latency to first entry) is taken as a measure of learning ability. </p> 
     <p> In this study I have taken the raw positional data from 120&nbsp;mice (C57BL/6 background) with seven different genotypes and examined the paths swum by each mouse for signs of learning. The raw data shows behaviour which is a great deal more complex than standard analysis suggests. <b> It is in fact extremely rare for a mouse to swim directly to the platform even after it has successfully performed many trials. </b> A detailed discussion of what can be determined by these methods is presented below, but there are two novel conclusions which can be drawn. </p>
-    <p> First, the swimming behaviour shows strong traits of anxiety, and a genotype-dependent adaptation to this anxiety over time. Quantifying anxiety in the watermaze correlates well with anxiety measured in the open field test and is negatively correlated with the platform latency to first entry. Thus the time required to find the platform measures an interaction between anxiety and learning. Without controlling for anxiety in the Morris water maze <b> it is very likely that what is being measured is actually the genotype's rate of adaptation to anxiety, rather than meaningful learning.</b> </p>
-    <p> Second, and more interestingly, I observe an extremely striking tendency in the memory retention testing data taken on days 5 and 12. These two trials start from a previously unused point and the latency to platform is measured. Again the anxiety problem exists, so increased latencies a week later may only be measuring a higher rate of anxiety de-acclimatization, rather than forgetfulness. Irrespective of this, however, there is an incredible similarity between the two paths swum by any one mouse, with a seven day interval between trials. While most ecology studies of animal navigation show relatively simple and qualitatively similar paths through complex landscapes, a mouse swimming in a circular pool follows a relatively complex path in the simplest possible landscape. Rather than triangulating on the visual cues and using them to navigate to the platform, it appears that the <b>mice have a strong tendency to closely follow the path they swam a week earlier, even if it is extremely inefficient for reaching the platform.</b> While this would be easy to perform in a complex landscape with physical barriers and many visual cues, swimming a repeat of a complex path one week later seems like a much harder navigational task (in human terms) than any other approach. This suggests that a mouse's spatial memory differs from human spatial memory and may be more dynamically visual, allowing the mouse to retrace its tracks in space as though it were constantly able to compare its position with a video record of its previous path. We can also speculate as to whether this behaviour is a stress-related strategy, whereby a known path to safety (they are conditioned to expect rescue after a maximum of 60&nbsp;s) is chosen automatically in a panic, in preference to any rational attempt to navigate. </p>
+    <p> First, the swimming behaviour shows strong traits of anxiety, and a genotype-dependent adaptation to this anxiety over time. Anxiety in the watermaze correlates reasonably with results from the open field test and tends to be negatively correlated with the average platform latency to first entry. This challenges the validity of defining learning by the time required to find the platform, since this measures an interaction between anxiety and learning. Without controlling accurately for anxiety in the Morris water maze <b> it is very likely that what is being measured is at least as much the genotype's rate of adaptation to anxiety, rather than meaningful learning.</b> </p>
+    <p> Second, and more interestingly, I observe a striking tendency in the memory retention testing data taken on days 5 and 12. These two trials start from a previously unused point and the latency to platform is measured. Again the anxiety problem exists, so increased latencies a week later may only be measuring a higher rate of anxiety de-acclimatization, rather than forgetfulness. Irrespective of this, however, there is often a surprising similarity between the two paths swum by any one mouse, with a seven day interval between trials. While most ecology studies of animal navigation show relatively simple and qualitatively similar paths through complex landscapes, a mouse swimming in a circular pool follows a relatively complex path in the simplest possible landscape. Rather than triangulating on the visual cues and using them to navigate to the platform, it appears that many of the <b>mice attempt to follow the path they swam a week earlier, even if it is an extremely inefficient route to the platform.</b> While this would be easy to perform in a complex landscape with physical barriers and many visual cues, swimming a repeat of a complex path one week later seems like a much harder navigational task (in human terms) than any other approach. This suggests that a mouse's spatial memory differs from human spatial memory and may be more dynamically visual, perhaps allowing the mouse to retrace its tracks in space as though it were constantly able to compare its position with a video record of its previous path. We can also speculate as to whether this behaviour is a stress-related strategy, whereby a known path to safety (they are conditioned to expect rescue after a maximum of 60&nbsp;s) is chosen automatically in a panic, in preference to any rational attempt to navigate. </p>
 
   </div> 
 </div>
 
 ----------------
 
-####Introduction
+####1: Introduction
 
 <div class="row">
 	<div class="col-md-12">
@@ -38,7 +38,7 @@ heading2: Working draft of manuscript
       </div>
 
 
-      <p>The Morris water maze is commonly (<a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=%22morris+water+maze%22">5145 hits on PubMed</a> on 17.03.2014) used to measure learning and memory in mice. Over a period of 4 days, mice are released according to the <a data-toggle="collapse" data-parent="#accordionAbstract" href="#collapseProtocol">protocol</a> shown below and the time required to swim to the submerged platform (platform latency to first entry) is recorded. The layout of the maze with start points is shown <a data-toggle="collapse" data-parent="#accordionAbstract" href="#collapseStarts">below</a>.  </p>
+      <p>The Morris water maze is commonly (<a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=%22morris+water+maze%22">5258 hits on PubMed</a> on 13.05.2014) used to measure learning and memory in mice. Over a period of 4 days, mice are released according to the <a data-toggle="collapse" data-parent="#accordionAbstract" href="#collapseProtocol">protocol</a> shown below and the time required to swim to the submerged platform (platform latency to first entry) is recorded. The layout of the maze with start points is shown <a data-toggle="collapse" data-parent="#accordionAbstract" href="#collapseStarts">below</a>.  </p>
 
       <p>There are varying standards for the analysis of these data as discussed in more detail <a data-toggle="collapse" data-parent="#accordionAbstract" href="#collapseLiterature">below</a>, but this is not the primary focus of this study, although I cover it in some detail <a data-toggle="collapse" data-parent="#accordionMethods" href="#collapseStandardImprove">later</a>. The fact remains that the entire exploration and learning process undergone by any one mouse, over four consecutive days, is reduced from a detailed positional dataset with sub 0.125s time resolution, to 32 data points.  </p>
 
@@ -96,7 +96,7 @@ heading2: Working draft of manuscript
        </div>
        <div id="collapseStarts" class="panel-collapse collapse">
          <div class="panel-body">
-           The start positions for the blocks on days one to four are shown (NW, NE, SW, SE), alongside the start points for the testing on days five and twelve (S).
+           <p> The start positions for the blocks on days one to four are shown (NW, NE, SW, SE), alongside the start points for the testing on days five and twelve (S). </p>
            <div class="col-xs-12   ">
                    <div class="well">
                            <img src="/articles/watermaze/start.positions.png" class="img-responsive">
@@ -127,7 +127,7 @@ heading2: Working draft of manuscript
 
 ----------------
 
-####Paths for a single mouse
+####2: Paths for a single mouse
 <div class="row">
 	<div class="col-md-12">
 
@@ -170,7 +170,7 @@ heading2: Working draft of manuscript
 
 ----------------
 
-####Paths for all mice
+####3: Paths for all mice
 <div class="row">
 	<div class="col-md-12">
 
@@ -213,7 +213,7 @@ heading2: Working draft of manuscript
 
 ----------------
 
-####Swimming speeds near the edge of the pool 
+####4: Swimming speeds near the edge of the pool 
 <div class="row">
 	<div class="col-md-12">
 
@@ -244,26 +244,131 @@ heading2: Working draft of manuscript
 
 ----------------
 
-####Anxiety and adaptation to the water maze 
+####5: Anxiety and adaptation to the water maze 
 <div class="row">
 	<div class="col-md-12">
 
-    <div class="col-xs-7 col-md-7 pull-right">
+    <div class="col-xs-7 col-md-7 col-md-offset-1 pull-right">
       <div class="row">
         <a href="/articles/watermaze/time.by.region.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 5A: Count of data points per trial spent by wall of pool vs count spent in open area of pool" data-footer="There are approximately 480 data points recorded in 60&nbsp;s of positional data. Classifying each point as wall-hugging (outer two strata in figure 4A) or open area we can plot the count of points by the wall against the count in the open area. Colouring by trial number clearly shows that early trials tend to occupy a diagonal line (meaning that the platform is not found) while later trials spend less time by the wall. This is of course somewhat genotype-dependent and implies a varying increase in confidence with experience in the maze." class="col-sm-6">
         <img src="/articles/watermaze/time.by.region.png" class="img-responsive">
         </a>
-        <a href="/articles/watermaze/open.area.time.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 5B: Proportion of time spent in the open area of the water maze as a function of trial number" data-footer="The data from figure 5A is shown as a proportion of the total swimming time spent in the open area. We will call this proportion confidence. A Michaelis-Menten curve (or a linear model in the few cases where the data is extremely noisy) showing confidence as a function of trial number is fitted for each genotype to the mice that find the platform and to thoise that do not. Further insight into the relative randomness of the open area exploration is shown by grouping trials according to the distance from the start to the platform - short starting at NW or NE and long starting at SW or SE - and seeing little to distinguish between them. It is abundantly clear that all mice that do not find the platform have a lower level of confidence than those that do, for all genotypes implying that confidence is fundamental to how fast these mice find the platform." class="col-sm-6">
+        <a href="/articles/watermaze/open.area.time.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 5B: Proportion of time spent in the open area of the water maze as a function of trial number" data-footer="The data from figure 5A is shown as a proportion of the total swimming time spent in the open area. We will call this proportion confidence. A Michaelis-Menten curve (or a linear model in the few cases where the data is extremely noisy) showing confidence as a function of trial number is fitted for each genotype to both the mice that find the platform and to those that do not. Further insight into the relative randomness of the open area exploration is shown by grouping trials according to the distance from the start to the platform - short starting at NW or NE and long starting at SW or SE - and seeing little to distinguish between them. It is abundantly clear that mice of all genotypes that do not find the platform have a lower level of confidence than those that do, implying that confidence is fundamental to how successfully these mice find the platform." class="col-sm-6">
         <img src="/articles/watermaze/open.area.time.png" class="img-responsive">
         </a>
       </div>
 	   <p> <i> Figure 5: The proportion of swimming time spent in the open area of the maze as opposed to wall-hugging (a measure of anxiety), is dependent upon experience and genotype. Mice which do not find the platform can be clearly seen to spend more time wall hugging, implying that anxiety is key to whether or not mice find the platform.</i> </p>
+     <br>
     </div>
 
-    <p>A </p>
+    <p>In order to better understand the role of anxiety in the water maze, it is instructive to examine the regions of the pool preferred by mice and the effect of experience gained by repeated trials. A simple presentation of this is given in figure 5A, where data points are classified as wall-hugging or open area and the number of points in each region for each trial are plotted against eachother. Colouring by trial number clearly shows that early trials tend to occupy a diagonal line (meaning that the platform is not found) while later trials spend less time by the wall. This is of course somewhat genotype-dependent and implies a varying increase in confidence with experience in the maze.</p>
+      
+    <div class="col-xs-7 col-md-7 col-md-offset-1 pull-right">
+      <div class="row">
+      <TABLE class="table table-hover table-condensed">
+      <TR> <TH> Genotype </TH> <TH> path </TH> <TH> Max conf </TH> <TH> Mean conf </TH> <TH> Median conf </TH>  </TR>
+        <TR> <TD> E </TD> <TD> long </TD> <TD> 0.99 </TD> <TD> 0.94 </TD> <TD> 0.98 </TD> </TR>
+        <TR> <TD> F </TD> <TD> long </TD> <TD> 1.00 </TD> <TD> 0.91 </TD> <TD> 0.95 </TD> </TR>
+        <TR> <TD> WT </TD> <TD> long </TD> <TD> 0.97 </TD> <TD> 0.91 </TD> <TD> 0.94 </TD> </TR>
+        <TR> <TD> C </TD> <TD> long </TD> <TD> 0.97 </TD> <TD> 0.91 </TD> <TD> 0.93 </TD> </TR>
+        <TR> <TD> A </TD> <TD> long </TD> <TD> 0.96 </TD> <TD> 0.91 </TD> <TD> 0.93 </TD> </TR>
+        <TR> <TD> D </TD> <TD> long </TD> <TD> 0.90 </TD> <TD> 0.86 </TD> <TD> 0.88 </TD> </TR>
+        <TR> <TD> B </TD> <TD> long </TD> <TD> 0.84 </TD> <TD> 0.82 </TD> <TD> 0.83 </TD> </TR>
+         </TABLE>
+       </div>
+       <p> <i> Table 1: Genotypes ranked by the mean confidence of the Michaelis-Menten fits in figure 5B for all mice that find the platform. This ranking correlates reasonably with a typical measure of learning as shown in figure 1. These rankings are very similar for the short path.</i> </p>
+       <br>
+    </div>
+    
+    <div class="col-xs-7 col-md-7 col-md-offset-1 pull-right">
+      <div class="row">
+        <a href="/articles/watermaze/accuracy.genotype.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 6A: Genotype-dependent success rate" data-footer="Successful navigation to the platform (TRUE) or failed (FALSE) is plotted against trial number, showing the relation between success rate and trial number (experience). The smoothing curve shows the proportion of mice which successfully find the platform as they gain experience." class="col-sm-12">
+        <img src="/articles/watermaze/accuracy.genotype.png" class="img-responsive">
+        </a>
+      </div>
+      <div class="row">
+        <a href="/articles/watermaze/accuracy.wt.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 6B: Success rates for individual mice of genotype WT" data-footer="The experience dependent success rate for individual mice." class="col-sm-3">
+        <img src="/articles/watermaze/accuracy.wt.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/accuracy.a.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 6C Success rates for individual mice of genotype A:" data-footer="The experience dependent success rate for individual mice." class="col-sm-3">
+        <img src="/articles/watermaze/accuracy.a.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/accuracy.b.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 6D: Success rates for individual mice of genotype B" data-footer="The experience dependent success rate for individual mice." class="col-sm-3">
+        <img src="/articles/watermaze/accuracy.b.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/accuracy.c.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 6E: Success rates for individual mice of genotype C" data-footer="The experience dependent success rate for individual mice." class="col-sm-3">
+        <img src="/articles/watermaze/accuracy.c.png" class="img-responsive">
+        </a>
+      </div>
+      <div class="row">
+        <a href="/articles/watermaze/accuracy.d.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 6F: Success rates for individual mice of genotype D" data-footer="The experience dependent success rate for individual mice." class="col-sm-3">
+        <img src="/articles/watermaze/accuracy.d.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/accuracy.e.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 6G: Success rates for individual mice of genotype E" data-footer="The experience dependent success rate for individual mice." class="col-sm-3">
+        <img src="/articles/watermaze/accuracy.e.png" class="img-responsive">
+        </a>
+        <a href="/articles/watermaze/accuracy.f.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 6H: Success rates for individual mice of genotype F" data-footer="The experience dependent success rate for individual mice." class="col-sm-3">
+        <img src="/articles/watermaze/accuracy.f.png" class="img-responsive">
+        </a>
+      </div>
+	   <p> <i> Figure 6: The genotype-specific dependence of platform finding success (accuracy) upon experience. Successful trials are marked TRUE and failed trials FALSE. The smoothing line gives a measure of the percentage success rate after a given number of trials. </i> </p>
+    </div>
+    
+    <p>It is also informative to see the proportion of swimming time that is spent in the open area, since the mice generally tend to find the platform regularly after several trials. I have interpreted an increasing tendency to explore the open area of the pool as increasing confidence due to familiarization with the environment. This is presented in figure 5B with a Michaelis-Menten curve (or a linear model in the few cases where the data is extremely noisy) showing confidence as a function of trial number fitted for each genotype to both the mice that find the platform and to those that do not. Further insight into the relative randomness of the open area exploration is shown by grouping trials according to the distance from the start to the platform - short starting at NW or NE and long starting at SW or SE - and seeing little to distinguish between them. It is abundantly clear that mice of all genotypes that do not find the platform have a lower level of confidence than those that do, implying that confidence is fundamental to how successfully these mice find the platform. </p>
+      
+    <p><b>Instead of demonstrating a less accurate platform search strategy which could indicate poorer learning, mice that do not find the platform show a consistent anxiety-like preference for avoiding the open area of the pool where the platform lies.</b></p>
+    
+    <p>We can also also illustrate this correlation between confidence and apparent learning by looking at how experience affects the success rate (I will call this accuracy here for want of a better word) with which mice find the platform. Figure 6 also shows that the genotypes with the highest confidence levels also tend to be those with the highest accuracy. </p>
+    
+    <p>Attempts to establish significant differences between genotypes are additionally hamstrung by some level of heterogeneity in the behaviour of mice within a genotype group. Figures 6B-H show the accuracy of individual mice and at times illustrate dramatically differing success rates. Taking figure 6E, we see that mouse number 15 never finds the platform (Examining figure 3D shows us that this mouse resolutely swims around the wall of the pool) while mouse 24 rapidly becomes reliably accurate. Without knowing the root cause of this behaviour it is difficult to decide whether this mouse counts as an outlier, but that would require us to understand what a mouse is thinking and <i>that way madness lies.</i> </p>
+    
+    <p>In short, there seems to be sufficient evidence to doubt that the latency to platform measure in the Morris water maze can reliably be used to measure learning ability in mice.</p>
       
 	</div>	
 </div>
+
+
+----------------
+
+####6: Navigation in the water maze
+
+<div class="row">
+	<div class="col-md-12">
+
+    <div class="col-xs-7 col-md-7 col-md-offset-1 pull-right">
+      <div class="row">
+        <a href="/articles/watermaze/testing.paths.all.examples.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 7A: Selected memory testing paths from days 5 and 12 can be strikingly similar" data-footer="Examples of swimming paths for 16 mice on days 5 and 12 overlaid. There is a surprising similarity between the paths chosen, suggesting that they have a very detailed recollection of the path swum a week previously, although this bears little relation to the rational shortest path to the platform. " class="col-sm-12">
+        <img src="/articles/watermaze/testing.paths.all.examples.png" class="img-responsive">
+        </a>
+        <div class="row">
+          <a href="/articles/watermaze/testing.paths.all.pre.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 7B: Memory testing paths from days 5 and 12 before the first time that the mouse enters the area where the platform was placed during training" data-footer="Paths swum before first entry into the platform area for all mice on days 5 and 12. Some are exceedingly similar, others relatively so, while relatively few appear to be totally unrelated to each other." class="col-sm-6">
+          <img src="/articles/watermaze/testing.paths.all.pre.png" class="img-responsive">
+          </a>
+          <a href="/articles/watermaze/testing.paths.all.post.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Figure 7C:  Memory testing paths from days 5 and 12 after the first time that the mouse enters the area where the platform was placed during training" data-footer="Paths swum after first entry into the platform area for all mice on days 5 and 12." class="col-sm-6">
+          <img src="/articles/watermaze/testing.paths.all.post.png" class="img-responsive">
+          </a>
+        </div>
+      </div>
+	   <p> <i> Figure 7: On day 5 the mice are released from a point due S of the platform and allowed to swim freely. The platform has been lowered so that the mice no longer find it, but entry into the platform region is recorded. The mice have no contact with the water maze for a week and are then released from the same point on day 12, to repeat the process. There is a surprising similarity between the paths chosen by individual mice on days 5 and 12, suggesting that they have a very detailed recollection of the path swum a week previously.  </i> </p>
+    </div>
+
+    <p>In addition to the training process on the first four days, a memory retention experiment is performed on days 5 and 12. The platform is lowered to the bottom of the pool and the mice are released once from a new point due south on the pool, furthest from the platform location. They are allowed to swim for 60&nbsp;s and the time at which they first enter the area (if at all) where the platform previously was is recorded. They then spend a week without contact with the water maze before being released once again from the same point on day 12. </p>  
+	  
+    <p>Looking at the overlay of day 5 and day 12 swimming paths for individual mice yields some striking impressions, exemplified in figure 7A, but shown in full detail in figures 7B and 7C. In figure 7A we see 16 examples of these paths, none of which follow a particularly direct route to the platform area. What is evident here is both a quantitative (positionally tending to move through a very similar area) and a qualitative (turning in the same direction in approximately the same location, exploring specific regions, following the wall to a similar location) similarity im the paths swum. I would be extremely surprised if this were random (although these are the best examples and some of the 120 mice show no similarity - figure 7B) and it may in fact reveal an unexpectedly rich and long-lasting spatial recollection formed by a single previous experience. </p>
+    
+    <p>Given this, it appears not to be fair to judge memory retention by the difference in time taken to swim to the platform on days 5 and 12, since there is no relation between memory and the directness of the path to the platform. However the similarity of these tracks in unnatural circumstances where these mice closely replicate a relatively complex path in the simplest possible landscape, rather than triangulating on the visual cues and using them to navigate directly to the platform location is particularly interesting.</p>
+      
+     <p>It appears that many of the mice attempt to follow the path they swam a week earlier, even if it is an extremely inefficient route to the platform. While this would be easy to perform in a complex landscape with physical barriers and many visual cues, swimming a repeat of a complex path one week later seems like a much harder navigational task (in human terms) than any other approach. This suggests that a mouse's spatial memory differs from human spatial memory and may be more dynamically visual, perhaps allowing the mouse to retrace its tracks in space as though it were constantly able to compare its position with a video record of its previous path. We can also speculate as to whether this behaviour is a stress-related strategy, whereby a known path to safety (they are conditioned to expect rescue after a maximum of 60&nbsp;s) is chosen automatically in a panic, in preference to any rational attempt to navigate.</p> 
+      
+    <p><b>Perhaps this is evidence of important navigational abilities in mice under stress, and could possibly be compared to a human navigational behaviour (escape/flight response) under stress. </b></p>
+      
+      
+      
+	</div>	
+</div>
+
+
+
 
 ----------------
 
@@ -273,6 +378,11 @@ heading2: Working draft of manuscript
   <div class="col-md-12">
       <p>Results from the Morris water maze should be interpreted with caution, since anxiety may override learning in a way that cannot easily be controlled for. </p>
       
+      <p>Do established methods exist for comparing the similarity between paths which could be meaningfully applied here? I have a method in mind to compare paths in space (without depending upon temporal synchronicity), but am assuming that others have done this before me. I would be appreciative of any guidance here. </p>
+
+      <p>The change in the times taken to enter the platform area on days 5 and 12 may not fairly represent memory retention in mice.</p>
+      
+      <p>There is evidence of extremely precise long lasting spatial memory formed by a single event in the similarity between swimming paths on days 5 and 12.</p>
       
   </div> 
 </div>
@@ -282,7 +392,7 @@ heading2: Working draft of manuscript
 
 ----------------
 
-####Methods
+####Other observations
 
 
 
@@ -294,13 +404,17 @@ heading2: Working draft of manuscript
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordionMethods" href="#collapseStandardImprove">
-              Improving standard latency to platform analysis
+              First discovery of platform vs trial number
             </a>
           </h4>
         </div>
-        <div id="collapseStandardImprove" class="panel-collapse collapse">
+        <div id="collapseStandardImprove" class="panel-collapse collapse in">
           <div class="panel-body">
-            <p>Discussion of problem. </p>
+            <p> There appears to be a periodicity of 4 trials superposed on what would otherwise be a decaying continuum. While it may be coincidental, the preiodicity of 4 is notable, since trials are performed in blocks of 4 in the morning and in the afternoon on each day. Given this, we could read this as an indication that a failure to find the platform early in the block of four trials biases against finding the platform in the latter trials of the same block. If the mice have a tendency to return to "familiar territory" in the pool, then those that find the platform early will tend to go back to the platform area, while those that occupy themselves elsewhere in the pool will also tend to return there, reducing the chance of them finding the platform. It would be interesting to see whether this is a trait that is observed in other data sets, or whethre it is coincidental.   </p>
+            <div class="col-xs-12   ">
+                    <div class="well">
+                            <img src="/articles/watermaze/first.find.genotype.png" class="img-responsive">
+                    </div>
             
           </div>
         </div>
