@@ -111,118 +111,62 @@
   
   <div class="post">
     <h1>
-      <a href="/blog/01-05-2014/Test-4.html">
-        Test 4
+      <a href="/blog/05-14-2014/Dredging-the-water-maze.html">
+        Dredging the water maze
       </a>
     </h1>
 
-    <span class="post-date">05 Jan 2014</span>
+    <span class="post-date">14 May 2014</span>
 
-    <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project&#39;s readme</a>:</p>
+    <p>I guess this is what happens when you let a physicist play with data.  </p>
 
-<blockquote>
-<p>Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
-</blockquote>
+<p>It all started because I was trying to understand why there was so much variation in what appeared to be straightforward measurements of learning and memory in mice. Digging a little deeper into the data convinced me that the only way to really understand the results was to look at the raw data, namely the paths that individual mice swim in the Morris water maze.  </p>
 
-<p>It&#39;s an immensely useful tool and one we encourage you to use here with Hyde.</p>
+<p>This turned out to be a reasonably large dataset, 4080 individual swimming trials from 120 mice of 7 different genotypes provided about 1.7 million sets of coordinates. </p>
 
-<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
+<p>This was a perfect excuse to use the following R libraries:  </p>
+
+<div class="highlight"><pre><code class="r">  library<span class="p">(</span>dplyr<span class="p">)</span>
+  library<span class="p">(</span>ggplot2<span class="p">)</span>
+  library<span class="p">(</span>magrittr<span class="p">)</span>
+</code></pre></div>
+
+<p>The first steps towards a complete analysis are presented in a <a href="http://adrowe1.github.io/articles/watermazeanalysis.html">working draft</a>. Once I have tidied up the code a little I will also release the full methods on <a href="https://github.com/adrowe1/">GitHub</a>.  </p>
+
+<ul>
+<li>Preliminary observations
+
+<ul>
+<li>Results from the Morris water maze should be interpreted with caution, since anxiety may override learning in a way that cannot easily be controlled for.<br></li>
+<li>The change in the times taken to enter the platform area on days 5 and 12 may not fairly represent memory retention in mice.<br></li>
+<li>There is evidence of extremely precise long lasting spatial memory formed by a single event in the similarity between swimming paths on days 5 and 12.<br></li>
+</ul></li>
+</ul>
 
   </div>
   
   <div class="post">
     <h1>
-      <a href="/blog/12-30-2013/welcome-to-jekyll.html">
-        Welcome to Jekyll!
+      <a href="/blog/05-14-2014/First-post.html">
+        First post
       </a>
     </h1>
 
-    <span class="post-date">30 Dec 2013</span>
+    <span class="post-date">14 May 2014</span>
 
-    <p>You&#39;ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
-To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+    <p>The site is far from finished, but I have to start somewhere and I have research content to publish before the rest of the site is in place, so please bear with me. I will get round to the other parts soon.  </p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>The site is built with <a href="http://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub pages</a>.   </p>
 
-<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span>
-</code></pre></div>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll&#39;s GitHub repo</a>.</p>
+<p>As things develop I will also release code and project data through <a href="https://github.com/adrowe1/">GitHub</a>.</p>
 
   </div>
   
-  <div class="post">
-    <h1>
-      <a href="/blog/12-30-2013/hello-world.html">
-        Hello, world!
-      </a>
-    </h1>
-
-    <span class="post-date">30 Dec 2013</span>
-
-    <h2>Hello world</h2>
-
-  </div>
   
-  <div class="post">
-    <h1>
-      <a href="/blog/12-30-2013/example.html">
-        Example
-      </a>
-    </h1>
+  
 
-    <span class="post-date">30 Dec 2013</span>
-
-    <p>Here is a quick test of some formatting</p>
-
-<hr>
-
-<p>with code</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">Example code block
-</code></pre></div>
-<p>and some R code</p>
-
-<div class="highlight"><pre><code class="r">    tmp <span class="o">&lt;-</span> read.table<span class="p">(</span><span class="s">&quot;test.csv&quot;</span><span class="p">,</span> header<span class="o">=</span><span class="kc">TRUE</span><span class="p">,</span> sep<span class="o">=</span><span class="s">&quot;,&quot;</span><span class="p">)</span>
-    def <span class="o">&lt;-</span> runif<span class="p">(</span><span class="m">100</span><span class="p">)</span>
-</code></pre></div>
-
-            
-and a bit of mathJax
-                         
-<div>
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$          
+  
 </div>
-
-<h3>Sub-heading</h3>
-
-<ol>
-<li>a</li>
-<li>new</li>
-<li>list</li>
-</ol>
-
-<p></div></p>
-
-<p></div></p>
 
            
             </div> <!-- /container -->

@@ -2,9 +2,14 @@
 layout: jumbotron
 title: G4-Quadruplex 
 categories: article
-heading1: This example is a quick test.
+heading1: Single molecule studies of the G4 quadruplex.
 ---
 
-Here is a bit of information from {{ site.time | date_to_long_string }}
+This will develop into an article describing our single molecule studies of the G4 quadruplex.
 
-A full article about G4
+<br>
+<br>
+
+
+
+Template placed here {{ site.time | date_to_long_string }}

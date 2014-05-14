@@ -1,7 +1,7 @@
 ---
 layout: jumbotron
-title: Blog posts
-heading1: Blog posts here.
+title: Articles
+heading1: Blank.
 heading2: <a class="btn btn-lg btn-primary" href="bysubject.html" role="button">By subject</a>
 ---
 
